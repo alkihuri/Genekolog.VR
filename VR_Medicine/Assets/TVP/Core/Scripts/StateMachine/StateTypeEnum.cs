@@ -1,0 +1,67 @@
+﻿using UnityEngine;
+
+namespace TVP
+{
+    public enum StateTypeEnum
+    {
+        AspiratingIsDone_07_01_02,
+        AspiratingTestIsDone_06_04_02,
+        BiopsyAdapterIsMounted_06_03,
+        BiopsyAdapterIsMounted_06_03_03,
+        DeattachAdapterFromDevice_08_01_06,
+        DeattachNiddleFromAdapter_08_01_02,
+        DontReleasePedal_08_01_01,
+        GelIsApplied_06_03_01,
+        HandsIsProccesed_06_02_01,
+        LastUziInvestigation_08_02_01,
+        NiddleISSelected_06_04_01,
+        NiddleIsMountedToAdapter_06_04_03,
+        PassAdapterToHelper_08_01_07,
+        PassNiddleToHelper_08_01_05,
+        PompIsOn_06_01_03,
+        PompIsWorking_06,
+        PompIsWorking_06_01_06,
+        PompPedalIsWorking_06_01_05,
+        PressuarePompLevelCheck_06_01_04,
+        PrezervativIsApplied_06_03_02,
+        PrintResultOfSurgery_08_02_02,
+        PutNiddleAtAntisepticFluid_08_01_03,
+        lastProccesVagina_08_03_01,
+        GenMirrorProccess_08_03_02,
+        TamponsOff_08_03_02,
+        GenZerkaloOff_08_03_03,
+
+        SceneIsDone_06_01,
+        SceneIsDone_06_02,
+        SceneIsDone_06_03,
+        SceneIsDone_06_04,
+        SceneIsDone_07_01,
+        SceneIsDone_08_01,
+        SceneIsDone_08_02,
+        SceneIsDone_08_03,
+
+        SceneIsStart_06_01,
+        SceneIsStart_06_02,
+        SceneIsStart_06_03,
+        SceneIsStart_06_04,
+        SceneIsStart_07_01,
+        SceneIsStart_08_01,
+        SceneIsStart_08_02,
+        SceneIsStart_08_03,
+
+        SimIsEnd,
+        SimIsStart,
+
+        SimpleUziInvestigation_06_03,
+        SimpleUziInvestigation_06_03_06,
+        SurgeryIsDone_07_01_03,
+        SurgeryIsStart_07_01_01,
+        UziDeviceDisassembled_08_01,
+        UziDispalySettedUp_06_01_02,
+        UziEmulation_06_03_05,
+        UziOsOn_06_01_01,
+        VaginaIsProccesed_06_02_02,
+        VaginaPenetreted_06_03_04,
+        WashNiddle_08_01_04,
+    }
+}
